@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width:475px) {
+     body {
+        width: 100%;
+        margin: 10px;
+        overflow-x: hidden;
+     }
+    .first {
+        white-space: nowrap;
+        /* width: 200px; */
+        /* margin-right: 50px; */
+        border: none;
+    }
+    .first img {
+        width: 65px;
+    }
+    .first button {
+        display: none;
+    }
+    .may {
+        position: relative;
+        left: -20px;
+        text-align: justify;
+    }
+    .minge {
+        flex-direction: column;
+    }
+    .margin {
+        font-size: 10px;
+        position: relative;
+        top: 5px;
+    }
+    .margin2 {
+       /* padding-right: 130px; */
+       width: 400px; 
+    }
+    .beside-image {
+        margin-left: 5px;
+        font-size: 5px;
+        width: 280px;
+    }
+    .icon {
+        display: none;
+    }
+    .bimage, .entire h1 {
+        font-size: 15px;
+        line-height: 25px;
+        width: 500px;
+        font-weight: 700;
+    }
+    .entire h1 {
+        color: white;
+    }
+
+    .bimage2 {
+        width: 400px;
+    }
+    .image {
+        display: none;
+    }
+    .entire {
+        height: 2400px;
+    }
+    .twodiv, .threediv, .fourdiv, .sixdiv {
+     margin-left: 50px; 
+     width: 300px;  
+    }
+    .onediv, .fivediv {
+        width: 300px;
+    }
+    .float1 {
+        display: none;
+    }
+    .margin00 {
+        margin: 0px;
+    }
+    .margin01 {
+        margin-left: 10px;
+    }
+    .justin, .krista, .Ashish {
+        text-align: justify;
+        margin: 5px;
+        padding: 5px;
+        width: 400px;
+        height: 220px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .i, .j, .k, .l {
+        margin-top: 10px;
+    }
+    .divslast {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .footer {
+        display: none;
+    }
+}
